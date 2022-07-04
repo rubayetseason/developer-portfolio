@@ -10,6 +10,7 @@ h1 {
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 /* here width is set to 50% to equally distribute the containers across the screen */
 .width{
@@ -20,7 +21,7 @@ section{
     width: 75%;
     padding-top: 4%;
 }
-#button{
+.button{
     text-decoration: none;
     /* background-color: orange; */
     padding: 10px 40px;
@@ -32,4 +33,9 @@ font-weight: 700;
 #banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+#banner2 {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
